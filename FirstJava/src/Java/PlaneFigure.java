@@ -16,6 +16,10 @@ abstract class PlaneFigure {
         this.shape = shape;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getShape() {
         return shape;
     }

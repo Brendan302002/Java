@@ -44,10 +44,18 @@ public class Ellipse extends PlaneFigure {
         this.color = color;
     }
     
+    
+    /** 
+     * @return double
+     */
     public double getMajorAxis() {
         return majorAxis;
     }
      
+    
+    /** 
+     * @return double
+     */
     public double getMinorAxis() {
         return minorAxis;
     }
