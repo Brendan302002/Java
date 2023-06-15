@@ -55,7 +55,7 @@ abstract class Customer {
 
         id += "-";
 
-        Random random= new Random(0);
+        Random random= new Random();
         for (int i = 0; i < 5; i++) {
             int randomNum = random.nextInt(10);
             id += randomNum;
