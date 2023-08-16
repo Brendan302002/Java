@@ -5,6 +5,10 @@ public class Course{
     private String courseNum;
     private String courseTitle;
 
+    
+    /** 
+     * @param course
+     */
     // TODO: Define mutator methods - 
     //       setCourseNumber(), setCourseTitle()
     public void setCourseNumber(String course) {

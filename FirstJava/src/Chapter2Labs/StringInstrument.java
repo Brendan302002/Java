@@ -7,6 +7,10 @@ public class StringInstrument extends Instrument {
     private int numFrets;
     private boolean bowed;
  
+    
+    /** 
+     * @param strings
+     */
     // TODO: Define mutator methods - 
     //       setNumOfStrings(), setNumOfFrets(), setIsBowed()
     public void setNumOfStrings(int strings) {

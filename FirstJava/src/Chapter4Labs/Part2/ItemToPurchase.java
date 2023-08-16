@@ -44,6 +44,10 @@ public class ItemToPurchase {
         return itemPrice;
     }
     
+    
+    /** 
+     * @return int
+     */
     public int getQuantity() {
         return itemQuantity;
     }

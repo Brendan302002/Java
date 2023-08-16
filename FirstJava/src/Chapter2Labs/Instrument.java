@@ -6,6 +6,10 @@ public class Instrument {
     protected String instrumentManufacturer;
     protected int yearBuilt, cost;
 
+    
+    /** 
+     * @param userName
+     */
     public void setName(String userName) {
         instrumentName = userName;
     }

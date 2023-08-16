@@ -3,6 +3,10 @@ import java.util.Arrays;
 public class TwoNumbers {
     private static final String ArrayUtils = null;
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
 
         // int l1[] = {2,3,4};

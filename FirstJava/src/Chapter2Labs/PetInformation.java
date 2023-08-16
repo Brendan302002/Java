@@ -3,6 +3,10 @@ package Chapter2Labs;
 import java.util.Scanner;
 
 public class PetInformation {
+   
+   /** 
+    * @param args
+    */
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
 

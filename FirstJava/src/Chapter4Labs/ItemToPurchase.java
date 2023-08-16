@@ -26,6 +26,10 @@ public class ItemToPurchase {
         this.itemQuantity = itemQuantity;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getName() {
         return itemName;
     }

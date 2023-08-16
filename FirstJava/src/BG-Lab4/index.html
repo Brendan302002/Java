@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INFO1217 Web Design</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,300;0,400;1,100&family=Quicksand:wght@300&display=swap');
+
+section {
+	background: white;
+	padding: 2em;
+	border-radius: 35px;
+	margin: 1em;
+	
+}
+
+body {
+	font: 100%/1.4 arial, Verdana, sans-serif;
+	background: #9BA9BD;
+}
+
+#top {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+#outline h2 {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 15px;
+}
+
+#outline a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#design h2 {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 15px;
+}
+
+#design a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#access h2 {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 15px;
+}
+
+#access a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#seo h2 {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 15px;
+}
+
+#seo a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#seo ul {
+  list-style: none;
+}
+
+#seo li a{
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+
+nav {
+  width: fit-content;
+  padding-left: 25px;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav li {
+  margin: 0 10px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 0;
+  position: relative;
+}
+
+nav a::before,
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 150px;
+  height: 0.75px;
+  background-color: #555454;
+}
+
+nav a::before {
+  top: 0;
+}
+
+nav a::after {
+  bottom: 0;
+}
+
+nav a:hover {
+  background-color: #223366; 
+  width: 150px;
+  color: #fff; 
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<header id="top"><h1>INFO1217 - Web Design</h1></header>
+<nav>
+  <ul>
+    <li><a href="#outline">outline</a></li>
+    <li><a href="#design">design</a></li>
+    <li><a href="#access">accessibility</a></li>
+    <li><a href="#seo">SEO</a></li></ul>
+  </nav>
+
+
+<section id="outline">
+  <h2>Outline</h2>
+    <p>Upon successful completion of this course, the student will be able to:</p>
+  <ol>
+    <li> hand code and publish a web site using HTML &amp; CSS</li>
+
+    <li>create animations using CSS3</li>
+    <li>discuss the latest web standards and their implications in designing sites</li>
+    <li>apply style sheets to a site to create consistency</li>
+    <li>discuss the implications of designing sites for different devices</li>
+  </ol>
+  <p><a href="#top">back to top</a></p>
+</section>
+
+
+<!-- design -->
+<section id="design">
+  <h2>Design</h2>
+  <p>There are 4 basic design principles:</p>
+  <ol>
+    <li>Contrast</li>
+    <li>Repetition</li>
+    <li>Alignment</li>
+    <li>Proximity</li>
+  </ol>
+  <p>The principle of <strong>contrast</strong> states that if something is different make them really different. Make them stand out so it draws attention. Can create contrast with color, fonts, sizes, whitespace etc. </p>
+  <p>The principle of <strong>repetition</strong> states that you repeat some aspect of the design with the purpose to unify and add visual interest. The repetitive element can be a font, a bullet, a line, colour, design element, spatial relationship etc.  Repetition creates consistency.</p>
+  <p>The <strong>alignment</strong> principle states that nothing should be placed on the page arbitrarily. The goal is to unify and organize. Every item should have a visual connection with something else on the page.</p>
+  <p>The principle of <strong>proximity</strong> states that you group related elements together. Move items close to each other so they are seen as one unit.  It implies a relationship and creates a path for eye to follow.</p>
+  <p><a href="#top">back to top</a></p>
+</section>
+
+
+<!-- accessibility -->
+<section id="access">
+<h2>Accessibility</h2>
+<ul>
+  <li>Covers not just deaf and blind but limited mobility, slow dialup, different devices</li>
+  <li> Use alt attributes on images</li>
+  <li>Use text that makes sense when read out of context </li>
+  <li>Use semantic markup</li>
+  <li>separate content from presentation to reduce amount of code in html file</li>
+  <li> Make sure color alone is not used to convey meaning </li>
+  <li>Ensure line by line reading of any tables makes sense </li>
+</ul>
+<p><a href="#top">back to top</a></p>
+</section>
+
+<!-- SEO Search Engine Optimization -->
+<section id="seo">
+<h2>SEO</h2>
+<ol>
+  <li><strong>Validate your site</strong> - makes it easier for search engines to read your pages, search engines read page line by line and if there are errors can prevent spider from reading the content. 	Valid html  tends to lessen the amount of code on the page </li>
+  <li>Use <strong>alt attributes</strong> on images so search engine understands what image is about. Create unique relevant description of image being described. Never repeat same alt tags unless its same image. Use keywords in your descriptions.</li>
+  <li>Conduct useful and thorough <strong>Keyword Research and Optimization</strong> utlizing things like relevant keywords, and phrases to target the given audience. Incorporate these words naturally, using titles, body text, alt image text and headings. Also avoid trying to cram too much info, and rely more on high quality content for the user.</li>
+  <li><Strong>Utilize Quality Content Creation</Strong> - publish high qualiy, and engaging content that adressed the needs of the audience. Regularly update your website with new content, such as blog posts, articles, videos, and infographics. Good content encourages more user engagement and reduces the bounce rates.</li>
+  <li><strong>On-page SEO</strong>: On-Page SEO allows on page elements, such as meta titles, descriptions, headers h1/h2, and URL structure to allow for uniqueness to the page.</li>
+  <li>Focus on building a healthy <strong>backlink profile</strong> by acquiring high-quality, relevant links from good websites in your industry. You can do this through content partnerships, collaborations, and participation in online community.</li>
+  <li><strong>MAKE IT MOBILE FRIENDLY</strong> A mobile friendly and responsive website is prioritized more by google and other search engines due to their adaptability to platform. A good mobile and user experience also increases the satisfaction of the user.</li>
+  <li>
+    <ul>
+      <li><a href="https://ads.google.com/keywordplanner">Google Planner</a></li>
+      <li><a href=" http://www.hemingwayapp.com/">Quality Content - Hemingway Editor</a></li>
+      <li><a href=" https://wordpress.org/plugins/all-in-one-seo-pack/">All in One SEO Pack</a></li>
+      <li><a href="https://search.google.com/test/mobile-friendly">Google Mobile Friendly Test</a></li>
+      <li><a href="https://moz.com/link-explorer">Moz Link Explorer</a></li>
+    </ul>
+</li>
+</ol>
+
+<p><a href="#top">back to top</a></p>
+</section>
+
+</body>
+</html>
+

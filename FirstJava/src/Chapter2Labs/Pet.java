@@ -5,6 +5,10 @@ public class Pet {
    protected String name;
    protected int age;
 
+   
+   /** 
+    * @param userName
+    */
    public void setName(String userName) {
       name = userName;
    }

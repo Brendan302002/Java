@@ -28,6 +28,10 @@ abstract class PlaneFigure {
 
     public abstract double findArea();
 
+    
+    /** 
+     * @return String
+     */
     public String toString() {
         return "the objects type is a " + shape;
     }

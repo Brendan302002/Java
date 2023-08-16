@@ -3,6 +3,10 @@ package Chapter4Labs.Part2;
 import java.util.Scanner;
 
 public class ShoppingCartManager {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

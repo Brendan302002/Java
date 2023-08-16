@@ -5,6 +5,10 @@ public class OfferedCourse extends Course {
     private String instructorName;
     private String location;
     private String classTime;
+    
+    /** 
+     * @param instructor
+     */
     // TODO: Define mutator methods -
     //      setInstructorName(), setLocation(), setClassTime()
      public void setInstructorName(String instructor) {

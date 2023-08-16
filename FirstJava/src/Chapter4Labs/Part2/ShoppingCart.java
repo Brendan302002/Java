@@ -27,6 +27,10 @@ public class ShoppingCart {
         return customerName;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getDate() {
         return currentDate;
     }

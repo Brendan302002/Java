@@ -60,6 +60,10 @@ public class Ellipse extends PlaneFigure {
         return minorAxis;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getColor() {
         return color;
    }
